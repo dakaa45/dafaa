@@ -1,0 +1,221 @@
+*, 
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ff711f;
+    background-size: 100%;
+}
+
+.Container-Navbar {
+    background-color: #020081;
+    width: 100%;
+    height: 16vh;
+}
+
+.ul-Navbar {
+    display: flex;
+    height: 120px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Li-Navbar {
+    font-size: 20px;
+    list-style-type: none;
+    padding: 25px;
+    margin: 16px;
+    color: white;
+}
+
+.Li-Navbar:hover {
+    background-color: #2659ff;
+    border-width: 5px;
+    transition: .5s ease-in-out;
+    transition-delay: .3;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.a-navbar {
+    color: rgb(255, 255, 255);
+    text-decoration: wavy;
+    font-weight: 650;
+}
+
+.container-content {
+    background-image: url(depe.jpg);
+    background-color: #b1673c;
+    background-blend-mode: soft-light;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 65ch;
+}
+
+.img-Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+}
+
+.img-lo-Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: auto;
+}
+
+.img-i-Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%
+}
+
+.img-w-Content {
+    height: 50%;
+    width: 50%;
+    border-radius: 100%;
+}
+
+.img-a-Content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 46%;
+    border-radius: 100%;
+}
+
+.p-content {
+    color: rgb(255, 255, 255);
+}
+
+.p-name {
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.p-profile {
+    padding: 5%;
+    text-align: center;
+    font-size: 16pt;
+}
+
+.a-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 380px;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30pt;
+    width: 380px;
+}
+
+.w-content {
+    display: flex;
+    justify-content: center;
+}
+
+.i-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 30pt;
+    width: 450px;
+    font-style: oblique;
+}
+
+.i-content:hover {
+    background-color: #ff8b3d;
+    border-width: 1px;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 100%;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);;  
+}
+
+.p-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    flex-direction: column;
+    background-color: rgb(72, 62, 255);
+    border-radius: 75px;
+    text-decoration: none;
+    font-size: 30px;
+    width: 45%;
+}
+
+.a-content:hover {
+    background-color: #ff8b3d;
+    border-width: 1px;
+    transition: .5s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 75px;
+    box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 7px 7px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.Container-Footer {
+    position:  relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #010024;
+    height: 107px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ul-Footer {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Li-Footer {
+    list-style-type: none;
+    font-size: 30px;
+    padding: 10px;           
+    color: white;
+}
+
+.Li-Footer:hover {
+    background-color: #84bbff;
+    border-width: 5px;
+    transition: .5s ease-in-out;
+    transition-delay: .3;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+
+.a-footer {
+    color: white;
+    text-decoration: none;
+}
